@@ -11,7 +11,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Building.."
-                bat "python --version"
+                bat "java --version"
             }
         }
         stage('Test') {
